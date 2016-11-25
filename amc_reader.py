@@ -19,7 +19,7 @@ def read(path, cnt):
             temp_frame = {}
             line = f.readline()
             line = line.strip()
-            while (not line.isdigit()):
+            while line and (not line.isdigit()):
                 #stay with current frame
                 #there is no lhipjoint nor rhipjoint
                 tmp = line.split(" ")
