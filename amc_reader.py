@@ -34,9 +34,8 @@ def read(path, cnt):
         else:
             line = f.readline()
             line = line.strip()
-    return frames
     f.close()
-
+    return frames
 
 if __name__ == '__main__' :
     frames = read("19_08.amc",5)
