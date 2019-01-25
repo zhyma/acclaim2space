@@ -1,4 +1,4 @@
-#A python script to read Acclaim file (.asf and .amc) and convert to World Coordinate System (Euclid).
+# A python script to read Acclaim file (.asf and .amc) and convert to World Coordinate System (Euclid).
 
 __2016 Nov. 19th__
 * ###acclaim2space.py
